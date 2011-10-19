@@ -25,6 +25,7 @@ public class ScheduleServlet extends HttpServlet implements Servlet {
 		if(schedule == null)
 		{	
 			schedule = new SchoolSchedule();
+			System.out.println("DERPIEST DERP EVAR");
 		}
 		
 		if(days != null)
